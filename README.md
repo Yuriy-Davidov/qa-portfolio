@@ -17,6 +17,9 @@
 - `screenshots/` — скриншоты для баг-репортов
 
 ## Как запустить тесты
+```bash
+python -m pytest tests/test_example.py -v
+```
 ## Контакты
 - GitHub: [Yuriy-Davidov](https://github.com/Yuriy-Davidov)
 
