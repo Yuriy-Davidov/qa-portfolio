@@ -10,15 +10,33 @@
 - Понимание HTTP, клиент-серверного взаимодействия
 - Составление тест-кейсов и баг-репортов
 
-## Структура проекта
-- `tests/` — автотесты (pytest)
-- `bugs/` — баг-репорты
-- `testcases/` — тест-кейсы
-- `screenshots/` — скриншоты для баг-репортов
+## 📂 Структура проекта
 
-## Как запустить тесты
+### Автотесты (`tests/`)
+| Файл | Что проверяет |
+|------|---------------|
+| `test_example.py` | Доступность сайта Т-Банка, наличие названия компании |
+| `test_api.py` | Работу публичного API (GET, POST, получение по ID) |
+| `test_with_data.py` | Поисковые запросы из файла `data/search_queries.txt` |
+| `test_ui.py` | UI-тесты через Selenium (открытие страницы, поиск, клик по кнопке) |
+
+### Баг-репорты (`bugs/`)
+- `bug-report-template.md` — шаблон для оформления багов
+- `bug-001-training.md` — учебный баг-репорт №1
+- `bug-002-training.md` — учебный баг-репорт №2
+
+### Тест-кейсы (`testcases/`)
+- `test-cases-template.md` — 5 готовых тест-кейсов для формы регистрации
+
+### Данные для тестов (`data/`)
+- `search_queries.txt` — список поисковых запросов для Data-Driven теста
+
+### Скриншоты (`screenshots/`)
+- [Результат запуска тестов](screenshots/tests-passed.png)
+
+## 🚀 Как запустить тесты
 ```bash
-python -m pytest tests/test_example.py -v
+python -m pytest tests/
 ```
 ## Контакты
 - GitHub: [Yuriy-Davidov](https://github.com/Yuriy-Davidov)
@@ -34,17 +52,43 @@ Junior QA Engineer. Preparing for the T-Bank internship.
 Learning Python, test automation, and test design fundamentals.
 
 ## Skills
-- Python (basic), pytest, requests
+- Python (basic), pytest, requests, selenium
 - Git, GitHub
 - Understanding of HTTP, client-server architecture
 - Writing test cases and bug reports
 
-## Project Structure
-- `tests/` — automated tests (pytest)
-- `bugs/` — bug reports
-- `testcases/` — test cases
-- `screenshots/` — screenshots for bug reports
+---
 
-## How to Run Tests
+## 📂 Project Structure
+
+### Automated Tests (`tests/`)
+| File | Description |
+|------|-------------|
+| `test_example.py` | T-Bank site availability, company name check |
+| `test_api.py` | Public API tests (GET, POST, fetch by ID) |
+| `test_with_data.py` | Data-Driven tests from `data/search_queries.txt` |
+| `test_ui.py` | UI tests via Selenium (page open, search, button click) |
+
+### Bug Reports (`bugs/`)
+- `bug-report-template.md` — bug report template
+- `bug-001-training.md` — sample bug report #1
+- `bug-002-training.md` — sample bug report #2
+
+### Test Cases (`testcases/`)
+- `test-cases-template.md` — 5 test cases for registration form
+
+### Test Data (`data/`)
+- `search_queries.txt` — search queries for Data-Driven tests
+
+### Screenshots (`screenshots/`)
+- [Test run results](screenshots/tests-passed.png)
+
+---
+
+## 🚀 How to Run Tests
+```bash
+python -m pytest tests/
+```
+
 ## Contacts
 - GitHub: [Yuriy-Davidov](https://github.com/Yuriy-Davidov)
