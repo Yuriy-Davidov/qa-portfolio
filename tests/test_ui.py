@@ -1,9 +1,61 @@
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
 
-def test_tbank_ui():
-    service = Service(executable_path=r"yandexdriver.exe") # путь к скачанному файлу
+service = Service(executable_path=r"yandexdriver.exe")
+
+def test_tbank_open_page():
     driver = webdriver.Chrome(service=service)
     driver.get("https://www.tbank.ru/")
     assert "Т-Банк" in driver.title
+    driver.quit()
+
+def test_tbank_search():
+    driver = webdriver.Chrome(service=service)
+    driver.get("https://www.tbank.ru/")
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.TAG_NAME, "body"))
+    )
+    time.sleep(2)
+
+    # Нажимаем на иконку поиска
+    try:
+        search_icon = driver.find_element(By.CSS_SELECTOR, "button[aria-label='Поиск'], button[aria-label='Search']")
+        search_icon.click()
+    except:
+        search_icon = driver.find_element(By.CSS_SELECTOR, "svg[aria-label='Поиск']")
+        search_icon.click()
+
+    time.sleep(1)
+
+    search_input = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, "input[type='search'], input[placeholder='Поиск']"))
+    )
+    search_input.clear()
+    search_input.send_keys("вклад")
+    search_input.send_keys("\n")  # Enter
+
+    time.sleep(2)
+    assert "вклад" in driver.page_source.lower()
+    driver.quit()
+
+def test_tbank_open_card():
+    driver = webdriver.Chrome(service=service)
+    driver.get("https://www.tbank.ru/")
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.TAG_NAME, "body"))
+    )
+    time.sleep(2)
+
+    # Простой способ, который работал в прошлый раз
+    buttons = driver.find_elements(By.TAG_NAME, "button")
+    if len(buttons) > 0:
+        driver.execute_script("arguments[0].scrollIntoView(true);", buttons[0])
+        time.sleep(1)
+        buttons[0].click()
+        time.sleep(2)
+
     driver.quit()
