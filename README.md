@@ -36,7 +36,7 @@
 
 ## 🚀 Как запустить тесты
 ```bash
-python -m pytest tests/
+pytest
 ```
 ## Контакты
 - GitHub: [Yuriy-Davidov](https://github.com/Yuriy-Davidov)
@@ -87,7 +87,7 @@ Learning Python, test automation, and test design fundamentals.
 
 ## 🚀 How to Run Tests
 ```bash
-python -m pytest tests/
+pytest
 ```
 
 ## Contacts
