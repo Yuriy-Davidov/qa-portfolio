@@ -1,7 +1,7 @@
 ## 1. Требования
 - Python 3.10 или выше
 - Git (опционально)
-- 
+  
 ## 2. Клонирование репозитория
 
 git clone https://github.com/Yuriy-Davidov/qa-portfolio.git
@@ -9,10 +9,12 @@ cd qa-portfolio
 
 ## 3. Создание виртуального окружения
 Windows
+
 python -m venv venv
 venv\Scripts\activate
 
 macOS/Linux
+
 python3 -m venv venv
 source venv/bin/activate
 
