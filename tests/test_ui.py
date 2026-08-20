@@ -21,13 +21,12 @@ def test_tbank_search():
     )
     time.sleep(2)
 
-    # Нажимаем на иконку поиска
     try:
         search_icon = driver.find_element(By.CSS_SELECTOR, "button[aria-label='Поиск'], button[aria-label='Search']")
-        search_icon.click()
+        driver.execute_script("arguments[0].click();", search_icon)
     except:
         search_icon = driver.find_element(By.CSS_SELECTOR, "svg[aria-label='Поиск']")
-        search_icon.click()
+        driver.execute_script("arguments[0].click();", search_icon)
 
     time.sleep(1)
 
@@ -36,7 +35,7 @@ def test_tbank_search():
     )
     search_input.clear()
     search_input.send_keys("вклад")
-    search_input.send_keys("\n")  # Enter
+    search_input.send_keys("\n")
 
     time.sleep(2)
     assert "вклад" in driver.page_source.lower()
@@ -50,12 +49,9 @@ def test_tbank_open_card():
     )
     time.sleep(2)
 
-    # Простой способ, который работал в прошлый раз
     buttons = driver.find_elements(By.TAG_NAME, "button")
     if len(buttons) > 0:
-        driver.execute_script("arguments[0].scrollIntoView(true);", buttons[0])
-        time.sleep(1)
-        buttons[0].click()
+        driver.execute_script("arguments[0].click();", buttons[0])
         time.sleep(2)
 
     driver.quit()
