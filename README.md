@@ -19,6 +19,10 @@
 | `test_api.py` | Работу публичного API (GET, POST, получение по ID) |
 | `test_with_data.py` | Поисковые запросы из файла `data/search_queries.txt` |
 | `test_ui.py` | UI-тесты через Selenium (открытие страницы, поиск, клик по кнопке) |
+| `test_performance.py` | Нагрузочное тестирование API (50 запросов, проверка скорости 
+ответа) |
+| `test_ui.py` (mobile) | Мобильная версия сайта (iPhone 12, проверка бургер-меню) |
+
 
 ### Баг-репорты (`bugs/`)
 - `bug-report-template.md` — шаблон для оформления багов
@@ -32,7 +36,9 @@
 - `search_queries.txt` — список поисковых запросов для Data-Driven теста
 
 ### Скриншоты (`screenshots/`)
-- [Результат запуска тестов](screenshots/tests-passed.png)
+- [Результат запуска всех тестов](screenshots/tests-passed.png)
+- [Результат нагрузочного теста](screenshots/performance-test-passed.png)
+- [Результат мобильного теста (ошибка)](screenshots/mobile-test-failed.png)
 
 ## 🚀 Как запустить тесты
 ```bash
