@@ -55,3 +55,14 @@ def test_tbank_open_card():
         time.sleep(2)
 
     driver.quit()
+
+def test_mobile_view():
+    driver = webdriver.Chrome(service=service)
+    driver.set_window_size(390, 844)  # iPhone 12 размер
+    driver.get("https://www.tbank.ru/")
+    time.sleep(2)
+
+    # Проверяем, что бургер-меню видно (иконка с тремя полосками)
+    burger = driver.find_element(By.CSS_SELECTOR, "button[aria-label='Меню']")
+    assert burger.is_displayed()
+    driver.quit()
