@@ -54,8 +54,11 @@ pytest
 ### SQL-запросы
 - [Примеры запросов](sql/queries.sql)
 - Выборка, объединение таблиц, группировка
-- ```
-  
+
+### Postman-коллекция
+- [API-тесты (reqres.in)](postman/collection.json)
+- Запуск через Newman: `newman run postman/collection.json`
+
 ## Контакты
 - GitHub: [Yuriy-Davidov](https://github.com/Yuriy-Davidov)
 
