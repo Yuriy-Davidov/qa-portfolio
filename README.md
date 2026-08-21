@@ -22,6 +22,7 @@
 | `test_performance.py` | Нагрузочное тестирование API (50 запросов, проверка скорости 
 ответа) |
 | `test_ui.py` (mobile) | Мобильная версия сайта (iPhone 12, проверка бургер-меню) |
+| `test_with_ai.py` | AI-анализ ошибок через OpenAI API (ChatGPT) |
 
 
 ### Баг-репорты (`bugs/`)
@@ -39,6 +40,7 @@
 - [Результат запуска всех тестов](screenshots/tests-passed.png)
 - [Результат нагрузочного теста](screenshots/performance-test-passed.png)
 - [Результат мобильного теста (ошибка)](screenshots/mobile-test-failed.png)
+- [AI-анализ ошибки (регион заблокирован)](screenshots/ai-test-error.png)
 
 ## 🚀 Как запустить тесты
 ```bash
