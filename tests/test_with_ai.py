@@ -4,7 +4,7 @@ import os
 import sys
 
 # ⚠️ ВСТАВЬ СВОЙ API-КЛЮЧ СЮДА (для проверки)
-openai.api_key = "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"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def analyze_error(error_message):
     try:
