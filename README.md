@@ -48,6 +48,14 @@
 ```bash
 pytest
 ```
+
+## 🧰 Дополнительные артефакты
+
+### SQL-запросы
+- [Примеры запросов](sql/queries.sql)
+- Выборка, объединение таблиц, группировка
+- ```
+  
 ## Контакты
 - GitHub: [Yuriy-Davidov](https://github.com/Yuriy-Davidov)
 
