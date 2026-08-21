@@ -66,10 +66,10 @@ pytest
 
 ## English version
 
-# QA Portfolio — T-Bank Internship (Autumn 2026)
+# QA Portfolio — (Autumn 2026)
 
 ## About Me
-Junior QA Engineer. Preparing for the T-Bank internship.  
+Junior QA Engineer.  
 Learning Python, test automation, and test design fundamentals.
 
 ## Skills
@@ -89,6 +89,10 @@ Learning Python, test automation, and test design fundamentals.
 | `test_api.py` | Public API tests (GET, POST, fetch by ID) |
 | `test_with_data.py` | Data-Driven tests from `data/search_queries.txt` |
 | `test_ui.py` | UI tests via Selenium (page open, search, button click) |
+| `test_performance.py` | API performance testing (50 requests, response time check) |
+| `test_ui.py` (mobile) | Mobile version testing (iPhone 12, burger menu check) |
+| `test_with_ai.py` | AI error analysis via OpenAI API (ChatGPT) |
+| `test_saucedemo.py` | Saucedemo login and add to cart test |
 
 ### Bug Reports (`bugs/`)
 - `bug-report-template.md` — bug report template
@@ -102,14 +106,17 @@ Learning Python, test automation, and test design fundamentals.
 - `search_queries.txt` — search queries for Data-Driven tests
 
 ### Screenshots (`screenshots/`)
-- [Test run results](screenshots/tests-passed.png)
+- [All tests passed](screenshots/tests-passed.png)
+- [Performance test passed](screenshots/performance-test-passed.png)
+- [Mobile test (failed)](screenshots/mobile-test-failed.png)
+- [AI error analysis (region blocked)](screenshots/ai-test-error.png)
+- [Saucedemo test passed](screenshots/saucedemo-test-passed.png)
 
 ---
 
 ## 🚀 How to Run Tests
 ```bash
 pytest
-```
 
 ## Contacts
 - GitHub: [Yuriy-Davidov](https://github.com/Yuriy-Davidov)
