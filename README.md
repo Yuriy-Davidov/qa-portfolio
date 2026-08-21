@@ -118,6 +118,17 @@ Learning Python, test automation, and test design fundamentals.
 ```bash
 pytest
 ```
+## 🧰 Additional Artifacts
+
+### SQL Queries
+- [Query examples](sql/queries.sql)
+- SELECT, JOIN, GROUP BY
+
+### Postman Collection
+- [API tests (reqres.in)](postman/collection.json)
+- Run via Newman: `newman run postman/collection.json`
+
+---
 
 ## Contacts
 - GitHub: [Yuriy-Davidov](https://github.com/Yuriy-Davidov)
