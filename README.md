@@ -24,6 +24,7 @@
 | `test_ui.py` (mobile) | Мобильная версия сайта (iPhone 12, проверка бургер-меню) |
 | `test_with_ai.py` | AI-анализ ошибок через OpenAI API (ChatGPT) |
 | `test_saucedemo.py` | Тестирование логина и добавления в корзину на Saucedemo |
+| `test_github_api.py` | GitHub API: создание, проверка и удаление репозитория через токен |
 
 
 ### Баг-репорты (`bugs/`)
@@ -43,6 +44,7 @@
 - [Результат мобильного теста (ошибка)](screenshots/mobile-test-failed.png)
 - [AI-анализ ошибки (регион заблокирован)](screenshots/ai-test-error.png)
 - [Результат теста Saucedemo](screenshots/saucedemo-test-passed.png)
+- [GitHub API тест](screenshots/github-api-test-passed.png)
 
 ## 🚀 Как запустить тесты
 ```bash
