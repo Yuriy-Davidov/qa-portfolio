@@ -25,6 +25,7 @@
 | `test_with_ai.py` | AI-анализ ошибок через OpenAI API (ChatGPT) |
 | `test_saucedemo.py` | Тестирование логина и добавления в корзину на Saucedemo |
 | `test_github_api.py` | GitHub API: создание, проверка и удаление репозитория через токен |
+| `test_csv_data.py` | Чтение CSV, валидация данных, отправка в API |
 
 
 ### Баг-репорты (`bugs/`)
@@ -45,6 +46,7 @@
 - [AI-анализ ошибки (регион заблокирован)](screenshots/ai-test-error.png)
 - [Результат теста Saucedemo](screenshots/saucedemo-test-passed.png)
 - [GitHub API тест](screenshots/github-api-test-passed.png)
+- [CSV-тест](screenshots/csv-test-passed.png)
 
 ## 🚀 Как запустить тесты
 ```bash
