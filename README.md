@@ -95,6 +95,7 @@ Learning Python, test automation, and test design fundamentals.
 | `test_ui.py` (mobile) | Mobile version testing (iPhone 12, burger menu check) |
 | `test_with_ai.py` | AI error analysis via OpenAI API (ChatGPT) |
 | `test_saucedemo.py` | Saucedemo login and add to cart test |
+| `test_github_api.py` | GitHub API: create, check and delete repo using token |
 
 ### Bug Reports (`bugs/`)
 - `bug-report-template.md` — bug report template
@@ -113,6 +114,7 @@ Learning Python, test automation, and test design fundamentals.
 - [Mobile test (failed)](screenshots/mobile-test-failed.png)
 - [AI error analysis (region blocked)](screenshots/ai-test-error.png)
 - [Saucedemo test passed](screenshots/saucedemo-test-passed.png)
+- [GitHub API test](screenshots/github-api-test-passed.png)
 
 ---
 
