@@ -98,6 +98,7 @@ Learning Python, test automation, and test design fundamentals.
 | `test_with_ai.py` | AI error analysis via OpenAI API (ChatGPT) |
 | `test_saucedemo.py` | Saucedemo login and add to cart test |
 | `test_github_api.py` | GitHub API: create, check and delete repo using token |
+| `test_csv_data.py` | CSV reading, data validation and sending to API |
 
 ### Bug Reports (`bugs/`)
 - `bug-report-template.md` — bug report template
@@ -117,6 +118,7 @@ Learning Python, test automation, and test design fundamentals.
 - [AI error analysis (region blocked)](screenshots/ai-test-error.png)
 - [Saucedemo test passed](screenshots/saucedemo-test-passed.png)
 - [GitHub API test](screenshots/github-api-test-passed.png)
+- [CSV test](screenshots/csv-test-passed.png)
 
 ---
 
