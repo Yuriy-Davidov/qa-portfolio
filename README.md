@@ -15,17 +15,17 @@
 ### Автотесты (`tests/`)
 | Файл | Что проверяет |
 |------|---------------|
-| `test_example.py` | Доступность сайта Т-Банка, наличие названия компании |
-| `test_api.py` | Работу публичного API (GET, POST, получение по ID) |
-| `test_with_data.py` | Поисковые запросы из файла `data/search_queries.txt` |
-| `test_ui.py` | UI-тесты через Selenium (открытие страницы, поиск, клик по кнопке) |
-| `test_performance.py` | Нагрузочное тестирование API (50 запросов, проверка скорости 
-ответа) |
-| `test_ui.py` (mobile) | Мобильная версия сайта (iPhone 12, проверка бургер-меню) |
-| `test_with_ai.py` | AI-анализ ошибок через OpenAI API (ChatGPT) |
-| `test_saucedemo.py` | Тестирование логина и добавления в корзину на Saucedemo |
-| `test_github_api.py` | GitHub API: создание, проверка и удаление репозитория через токен |
-| `test_csv_data.py` | Чтение CSV, валидация данных, отправка в API |
+| [`test_example.py`](tests/test_example.py) | Доступность сайта Т-Банка, наличие названия компании |
+| [`test_api.py`](tests/test_api.py) | Работу публичного API (GET, POST, получение по ID) |
+| [`test_with_data.py`](tests/test_with_data.py) | Поисковые запросы из файла `data/search_queries.txt` |
+| [`test_ui.py`](tests/test_ui.py) | UI-тесты через Selenium (открытие страницы, поиск, клик по кнопке) |
+| [`test_performance.py`](tests/test_performance.py) | Нагрузочное тестирование API (50 запросов, проверка скорости ответа) |
+| [`test_ui.py` (mobile)](tests/test_ui.py) | Мобильная версия сайта (iPhone 12, проверка бургер-меню) |
+| [`test_with_ai.py`](tests/test_with_ai.py) | AI-анализ ошибок через OpenAI API (ChatGPT) |
+| [`test_saucedemo.py`](tests/test_saucedemo.py) | Тестирование логина и добавления в корзину на Saucedemo |
+| [`test_github_api.py`](tests/test_github_api.py) | GitHub API: создание, проверка и удаление репозитория через токен |
+| [`test_csv_data.py`](tests/test_csv_data.py) | Чтение CSV, валидация данных, отправка в API |
+| [`test_smoke_gosuslugi.py`](tests/test_smoke_gosuslugi.py) | Smoke-тест главной страницы портала «Госуслуги» (проверка доступности, заголовка, ключевых элементов) |
 
 
 ### Баг-репорты (`bugs/`)
