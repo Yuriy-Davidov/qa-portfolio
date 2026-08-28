@@ -26,7 +26,7 @@
 | [`test_github_api.py`](tests/test_github_api.py) | GitHub API: создание, проверка и удаление репозитория через токен |
 | [`test_csv_data.py`](tests/test_csv_data.py) | Чтение CSV, валидация данных, отправка в API |
 | [`test_smoke_gosuslugi.py`](tests/test_smoke_gosuslugi.py) | Smoke-тест главной страницы портала «Госуслуги» (проверка доступности, заголовка, ключевых элементов) |
-| `test_gosuslugi_search.py` | Пример тестирования защищённого сайта (Госуслуги), демонстрация подхода к поиску элементов |
+| [`test_gosuslugi_search.py`](tests/test_gosuslugi_search.py) | Пример тестирования защищённого сайта (Госуслуги), демонстрация подхода к поиску элементов |
 
 
 ### Баг-репорты (`bugs/`)
