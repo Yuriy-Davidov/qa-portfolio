@@ -48,7 +48,7 @@
 
 \## Серьёзность
 
-Medium
+Средняя
 
 
 
@@ -76,6 +76,7 @@ Medium
 
 !\[Скриншот 5](../screenshots/bug-005-team-5.png)
 
-!\[Скриншот 5](../screenshots/bug-005-team-6.png)
+!\[Скриншот 6](../screenshots/bug-005-team-6.png)
 
-!\[Скриншот 5](../screenshots/bug-005-team-7.png)
+!\[Скриншот 7](../screenshots/bug-005-team-7.png)
+
