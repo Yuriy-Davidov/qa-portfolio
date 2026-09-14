@@ -23,7 +23,7 @@
 ### Баг-репорты (`bugs/`)
 
 - [`bug-report-template.md`](bugs/bug-report-template.md) — шаблон для оформления багов
-- 
+  
 ## Контакты
 
 - GitHub: [Yuriy-Davidov](https://github.com/Yuriy-Davidov)
