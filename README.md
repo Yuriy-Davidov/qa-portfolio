@@ -23,15 +23,7 @@
 ### Баг-репорты (`bugs/`)
 
 - [`bug-report-template.md`](bugs/bug-report-template.md) — шаблон для оформления багов
-
-### Тест-кейсы (`testcases/`)
-
-- (пока пусто)
-
-### Автотесты (`tests/`)
-
-- (пока пусто)
-
+- 
 ## Контакты
 
 - GitHub: [Yuriy-Davidov](https://github.com/Yuriy-Davidov)
